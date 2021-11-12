@@ -1,4 +1,4 @@
-# Shamazon
+Mock Amazon website
 
 Work In Progress!
 A (Soon to be) functional demonstration of an ecommerce application that seems oddly familiar.
