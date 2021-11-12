@@ -1,11 +1,10 @@
 # Shamazon
 
-Work In Progress! A soon-to-be:
-A functional demonstration of an ecommerce application that seems oddly familiar.
-<!--
-##
+Work In Progress!
+A (Soon to be) functional demonstration of an ecommerce application that seems oddly familiar.
 
-To visit the application:
+## Check it out so far
+
+Visit the application:
 
 ### [Shamazon](http://wbmetzel.github.io/shamazon)
--->
