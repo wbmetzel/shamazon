@@ -7,4 +7,4 @@ A (Soon to be) functional demonstration of an ecommerce application that seems o
 
 Visit the application:
 
-### [Shamazon](http://wbmetzel.github.io/shamazon)
+### [Shamazon](https://wbmetzel.github.io/shamazon/)
