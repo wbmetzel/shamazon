@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d1f832d.chunk.css",
-    "main.js": "/static/js/main.926f3fdb.chunk.js",
-    "main.js.map": "/static/js/main.926f3fdb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a7768f44.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a7768f44.js.map",
-    "static/js/2.cb428368.chunk.js": "/static/js/2.cb428368.chunk.js",
-    "static/js/2.cb428368.chunk.js.map": "/static/js/2.cb428368.chunk.js.map",
-    "static/js/3.8cd57f61.chunk.js": "/static/js/3.8cd57f61.chunk.js",
-    "static/js/3.8cd57f61.chunk.js.map": "/static/js/3.8cd57f61.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.7d1f832d.chunk.css.map": "/static/css/main.7d1f832d.chunk.css.map",
-    "static/js/2.cb428368.chunk.js.LICENSE.txt": "/static/js/2.cb428368.chunk.js.LICENSE.txt"
+    "main.css": "/shamazon/static/css/main.7d1f832d.chunk.css",
+    "main.js": "/shamazon/static/js/main.926f3fdb.chunk.js",
+    "main.js.map": "/shamazon/static/js/main.926f3fdb.chunk.js.map",
+    "runtime-main.js": "/shamazon/static/js/runtime-main.3d0a7fe2.js",
+    "runtime-main.js.map": "/shamazon/static/js/runtime-main.3d0a7fe2.js.map",
+    "static/js/2.cb428368.chunk.js": "/shamazon/static/js/2.cb428368.chunk.js",
+    "static/js/2.cb428368.chunk.js.map": "/shamazon/static/js/2.cb428368.chunk.js.map",
+    "static/js/3.8cd57f61.chunk.js": "/shamazon/static/js/3.8cd57f61.chunk.js",
+    "static/js/3.8cd57f61.chunk.js.map": "/shamazon/static/js/3.8cd57f61.chunk.js.map",
+    "index.html": "/shamazon/index.html",
+    "static/css/main.7d1f832d.chunk.css.map": "/shamazon/static/css/main.7d1f832d.chunk.css.map",
+    "static/js/2.cb428368.chunk.js.LICENSE.txt": "/shamazon/static/js/2.cb428368.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7768f44.js",
+    "static/js/runtime-main.3d0a7fe2.js",
     "static/js/2.cb428368.chunk.js",
     "static/css/main.7d1f832d.chunk.css",
     "static/js/main.926f3fdb.chunk.js"
