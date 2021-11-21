@@ -30,6 +30,7 @@
 
 .product_rating {
   display: flex;
+  color: gold;
 }
 
 .product > button {

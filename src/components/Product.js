@@ -1,5 +1,6 @@
 import React from "react";
 import "./Product.css";
+import { FaDollarSign, FaStar } from "react-icons/fa";
 
 function Product({id, title, image, price, rating}) {
   return(
@@ -7,20 +8,20 @@ function Product({id, title, image, price, rating}) {
       <div className="product_info">
         <p>{title}</p>
         <p className="product_price">
-          <small>$</small>
+          <small><FaDollarSign /></small>
           <strong>{price}</strong>
         </p>
         <div className="product_rating">
           {Array(rating)
             .fill()
             .map((_, i) => (
-            <p>☺</p>
+            <p><FaStar /></p>
           ))}
         </div>
       </div>
       <img
         src={image}
-        alt="Lean startup book"
+        alt="product image"
       />
       <button>Add to Cart</button>
     </div>
