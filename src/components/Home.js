@@ -14,11 +14,13 @@ function Home() {
 
         <div className="home_row">
           <Product
+            id="6097478"
             title="The Portable Henry Rollins"
             price={22.00}
             image="https://m.media-amazon.com/images/I/51nLZyNtB4L.jpg"
             rating={5} />
           <Product
+            id="8675309"
             title="Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset — 128 GB"
             price={299.00}
             image="https://m.media-amazon.com/images/I/615YaAiA-ML._SL1500_.jpg"
