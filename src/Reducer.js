@@ -15,6 +15,18 @@ const reducer = (state, action) => {
         cart: [...state.cart, action.item],
       };
 
+    case 'REMOVE_FROM_CART':
+      const index = state.cart.findIndex( (item) => item.id === action.id );
+      let newCart = [...state.cart];
+
+      if(index >= 0) {
+        newCart.splice(index,1);  //TODO: Remove splice, not immutable -> use filter()
+      } else {
+        console.warn("Remove item failed - Item does not exist.");
+      }
+
+      return {...state, cart: newCart};
+
     default:
       return state;
   }

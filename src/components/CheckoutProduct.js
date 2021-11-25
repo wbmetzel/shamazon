@@ -1,8 +1,18 @@
 import React from 'react'
 import "./CheckoutProduct.css";
 import { FaDollarSign, FaStar } from "react-icons/fa";
+import { useStateValue } from "../StateProvider";
 
 function CheckoutProduct({id, image, title, price, rating}) {
+  const [{cart}, dispatch] = useStateValue();
+
+  const removeFromCart = () => {
+    dispatch({
+      type: 'REMOVE_FROM_CART',
+      id: id,
+    });
+  };
+
   return (
     <div className="checkoutProduct">
       <img class="checkoutProduct_image" src={image} />
@@ -13,7 +23,7 @@ function CheckoutProduct({id, image, title, price, rating}) {
         <p className="checkoutProduct_rating">
           {Array(rating).fill().map((_,i) => (<p><FaStar /></p>))}
         </p>
-        <button>Remove from Cart</button>
+        <button onClick={removeFromCart}>Remove from Cart</button>
       </div>
     </div>
   )
